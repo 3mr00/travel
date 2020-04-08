@@ -54,8 +54,35 @@
       }
       
 	.find_button{
-		width: 138px!important; 
+		width: 138px!important;
+     margin-left: 35%;
+
+    
   }  
+}
+
+@media screen and (max-width: 500px) {
+  .social-links{
+          margin-right: 23%;
+
+  }
+}
+@media screen and (max-width: 490px) {
+.footer-nav li, .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width: 490px) {
+.footer-nav li, .social-links li {
+    display: inline-block;
+    margin-right: 10px;
+}
+}
+@media screen and (max-width: 993px) {
+input[type=submit]{
+        margin-left: 28%;
+}
 }
 
 /*********************************
@@ -615,7 +642,6 @@ label{
     width: 600px;
     margin: 0 auto 50px;
     background: #2E4053;
-
     border-radius: 25px;
 }
 
@@ -623,7 +649,7 @@ label{
        footer
 *******************/
 footer {
-    background-color: #333;
+    background-color: #17202A;
     padding: 60px;
     color: #e6e6e6;
 }
