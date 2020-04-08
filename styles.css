@@ -75,7 +75,7 @@
 }
 @media screen and (max-width: 448px) {
 .footer-nav li {
-    margin-right: 5px!important;
+    margin-right: 10px!important;
 }
 }
 @media screen and (max-width: 993px) {
