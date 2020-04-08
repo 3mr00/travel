@@ -73,10 +73,9 @@
     margin-right: 10px;
 }
 }
-@media screen and (max-width: 490px) {
-.footer-nav li, .social-links li {
-    display: inline-block;
-    margin-right: 10px;
+@media screen and (max-width: 500px) {
+.footer-nav li {
+    margin-right: 10px!important;
 }
 }
 @media screen and (max-width: 993px) {
