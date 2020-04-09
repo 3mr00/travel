@@ -5,7 +5,6 @@
   
 .dropdown2, .a {
         padding-inline-start: 7px!important;
-
   }
 }
 @media screen and (min-width: 600px) {
@@ -60,6 +59,14 @@
     
   }  
 }
+@media (min-width: 992px){
+  
+  .col-lg-4 {
+    flex: 0 0 32.333333%!important;
+
+}
+}
+
 
 @media screen and (max-width: 500px) {
   .social-links{
@@ -67,17 +74,12 @@
 
   }
 }
-@media screen and (max-width: 490px) {
-.footer-nav li, .social-links li {
-    display: inline-block;
-    margin-right: 10px;
-}
-}
-@media screen and (max-width: 448px) {
+@media screen and (max-width: 500px) {
 .footer-nav li {
-    margin-right: 7px!important;
+    margin-right: 10px!important;
 }
 }
+
 @media screen and (max-width: 993px) {
 input[type=submit]{
         margin-left: 28%;
@@ -449,6 +451,9 @@ background-image:url('images/find.jpg');
   transform:  translateY(1px)  translateY(3px);
   
 }
+.border{
+    border-right: 1px solid rgba(0,0,0,.2);   
+}
 .hr2{
   width: 15%;
   margin-bottom: 60px !important;
@@ -517,6 +522,7 @@ background-image:url('images/find.jpg');
 .cta:hover:before {
   width: 100%;
   background: #ffab9d;
+
 }
 .cta:hover svg {
   transform: translateX(0);
@@ -704,6 +710,7 @@ footer p{
 .twitter:hover{
   color:#1da1f2;
 }
+
 
 
 
