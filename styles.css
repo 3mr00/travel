@@ -5,6 +5,7 @@
   
 .dropdown2, .a {
         padding-inline-start: 7px!important;
+
   }
 }
 @media screen and (min-width: 600px) {
@@ -89,10 +90,12 @@ input[type=submit]{
 /*********************************
          header
 *********************************/
+body {
+overflow-x: hidden;
+}
 .header{
 background-image:
 linear-gradient(to bottom, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)),url('images/header.jpg');
- clip-path: ellipse(1000px 595px at 50% 10%);
     background-size: cover;
     height: 100vh;
     background-attachment: fixed;
@@ -416,8 +419,12 @@ text style
 	font-style: italic;
 	color: #939393 !important;
 }
+svg{
+  margin-top: -7%;
+}
+
 .findbg{
-background-image:url('images/find.jpg');
+background-color:#05001b;
     height: 45vh;
     background-attachment: fixed;
     padding-top: 60px;
@@ -654,7 +661,7 @@ label{
        footer
 *******************/
 footer {
-    background-color: #17202A;
+    background-color: #05001b;
     padding: 60px;
     color: #e6e6e6;
 }
@@ -710,7 +717,6 @@ footer p{
 .twitter:hover{
   color:#1da1f2;
 }
-
 
 
 
