@@ -9,6 +9,7 @@
   }
 html,body {
     width:100%;
+    height: 100%;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
@@ -43,6 +44,7 @@ footer {
   }
 html,body {
     width:100%;
+	height: 100%;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
@@ -128,6 +130,7 @@ input[type=submit]{
 *********************************/
 html,body {
     width:100%;
+    height: 100%;	
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
