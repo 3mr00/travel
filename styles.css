@@ -7,6 +7,12 @@
         padding-inline-start: 7px!important;
 
   }
+  html,body {
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
 }
 @media screen and (min-width: 600px) {
   .p1{
@@ -18,11 +24,23 @@
   .p1{
     font-size: 80px;
   }
+  html,body {
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
 }
 @media screen and (max-width: 446px) {
   .p1{
     font-size: 60px;
   }
+  html,body {
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
 }
 @media screen and (min-width: 600px) {
   .icon2{
@@ -43,6 +61,12 @@
     width: 40px;
     height:40px;
     }
+    html,body {
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
+}
 }
 @media only screen and (max-width: 767px){
   .find_item:first-child,
@@ -90,9 +114,14 @@ input[type=submit]{
 /*********************************
          header
 *********************************/
-body {
-overflow-x: hidden;
+html,body {
+    width:100%;
+    overflow-x: hidden;
+    margin: 0px;
+    padding: 0px;
 }
+img{margin-left:0!important;margin-right:0%!important}
+
 .header{
 background-image:
 linear-gradient(to bottom, rgba(0, 0, 0, 0.4) , rgba(0, 0, 0, 0.4)),url('images/header.jpg');
@@ -252,7 +281,6 @@ text style
 }
 .find
 {
-    
 	width: 100%;
 	padding-top: 63px;
 	padding-bottom: 70px;
@@ -420,7 +448,7 @@ text style
 	color: #939393 !important;
 }
 svg{
-  margin-top: -7%;
+  margin-top: -16%;
 }
 
 .findbg{
@@ -717,14 +745,7 @@ footer p{
 .twitter:hover{
   color:#1da1f2;
 }
-
-
-
-
-
-
-
-
+img{margin-left:0!important;margin-right:0%!important}
 
 
 
