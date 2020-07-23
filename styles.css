@@ -7,11 +7,22 @@
         padding-inline-start: 7px!important;
 
   }
-  html,body {
+html,body {
     width:100%;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    margin-bottom:0%!important;
+}
+footer {
+    background-color: #05001b;
+    padding: 60px;
+    color: #e6e6e6;
+    margin-bottom:0px;
+    bottom: 0;
+	  left: 0;
+	  right: 0;
+
 }
 }
 @media screen and (min-width: 600px) {
@@ -24,22 +35,28 @@
   .p1{
     font-size: 80px;
   }
-  html,body {
-    width:100%;
-    overflow-x: hidden;
-    margin: 0px;
-    padding: 0px;
-}
+
 }
 @media screen and (max-width: 446px) {
   .p1{
     font-size: 60px;
   }
-  html,body {
+html,body {
     width:100%;
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    margin-bottom:0%!important;
+}
+footer {
+    background-color: #05001b;
+    padding: 60px;
+    color: #e6e6e6;
+    margin-bottom:0px;
+    bottom: 0;
+	  left: 0;
+	  right: 0;
+
 }
 }
 @media screen and (min-width: 600px) {
@@ -61,12 +78,7 @@
     width: 40px;
     height:40px;
     }
-    html,body {
-    width:100%;
-    overflow-x: hidden;
-    margin: 0px;
-    padding: 0px;
-}
+
 }
 @media only screen and (max-width: 767px){
   .find_item:first-child,
@@ -119,6 +131,7 @@ html,body {
     overflow-x: hidden;
     margin: 0px;
     padding: 0px;
+    margin-bottom:0%!important;
 }
 img{margin-left:0!important;margin-right:0%!important}
 
@@ -692,6 +705,11 @@ footer {
     background-color: #05001b;
     padding: 60px;
     color: #e6e6e6;
+    margin-bottom:0px;
+    bottom: 0;
+	  left: 0;
+	  right: 0;
+
 }
 .footer-nav{
   list-style: none;
@@ -745,9 +763,8 @@ footer p{
 .twitter:hover{
   color:#1da1f2;
 }
-img{margin-left:0!important;margin-right:0%!important}
-
-
+img{margin-left:0!important;margin-right:0%!important;margin-bottom:0%!important;
+}
 
 
 
